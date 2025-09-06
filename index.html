@@ -29,6 +29,17 @@
     <!-- Main App Container -->
     <div id="app" class="app-container hidden">
         
+        <!-- Mobile Navigation -->
+        <div class="mobile-nav">
+            <button class="mobile-menu-btn" onclick="toggleMobileSidebar()">
+                <i class="fas fa-bars"></i>
+            </button>
+            <div class="mobile-nav-title">Community Z</div>
+            <button class="mobile-menu-btn" onclick="showSettingsModal()">
+                <i class="fas fa-cog"></i>
+            </button>
+        </div>
+        
         <!-- Login/Signup Page -->
         <div id="auth-page" class="page active">
             <div class="auth-container">
@@ -641,4 +652,3 @@
     <script src="app.js"></script>
 </body>
 </html>
-
